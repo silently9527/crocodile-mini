@@ -1,11 +1,11 @@
-package com.gitee.starblues.grape.core.security.impl;
+package cn.silently9527.crocodile.core.security.impl;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.gitee.starblues.grape.repository.databases.entity.UserRole;
-import com.gitee.starblues.grape.repository.databases.mapper.UserRoleMapper;
-import com.gitee.starblues.grape.core.security.UserRoleService;
+import cn.silently9527.crocodile.repository.databases.entity.UserRole;
+import cn.silently9527.crocodile.repository.databases.mapper.UserRoleMapper;
+import cn.silently9527.crocodile.core.security.UserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

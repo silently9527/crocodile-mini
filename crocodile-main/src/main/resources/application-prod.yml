@@ -25,8 +25,8 @@ spring:
 # mybatis-plus 配置
 mybatis-plus:
   # 别名定义包
-  typeAliasesPackage: com.gitee.starblues.grape.repository.databases.entity
-  mapperLocations: classpath:/com/gitee/starblues/grape/repository/databases/mapper/xml/*Mapper.xml
+  typeAliasesPackage: cn.silently9527.crocodile.repository.databases.entity
+  mapperLocations: classpath:/cn/silently9527/crocodile/repository/databases/mapper/xml/*Mapper.xml
   configuration:
     mapUnderscoreToCamelCase: true
 
@@ -71,7 +71,7 @@ plugin:
 
 # web界面配置
 web:
-  webLocation: classpath:/grape-web/
+  webLocation: classpath:/crocodile-console/
   # web 界面的配置
   config:
     # 服务的接口url地址, 默认为空, 表示使用浏览器访问的地址

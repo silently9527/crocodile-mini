@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.plugin.web;
+package cn.silently9527.crocodile.plugin.web;
 
-import com.gitee.starblues.grape.core.plugin.web.WebViewRegister;
+import cn.silently9527.crocodile.core.plugin.web.WebViewRegister;
 
 
 /**

@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.repository.databases.model;
+package cn.silently9527.crocodile.repository.databases.model;
 
-import com.gitee.starblues.grape.repository.databases.entity.User;
+import cn.silently9527.crocodile.repository.databases.entity.User;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

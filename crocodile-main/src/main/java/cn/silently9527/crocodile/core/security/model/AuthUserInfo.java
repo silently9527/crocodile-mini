@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.core.security.model;
+package cn.silently9527.crocodile.core.security.model;
 
 import lombok.Data;
 

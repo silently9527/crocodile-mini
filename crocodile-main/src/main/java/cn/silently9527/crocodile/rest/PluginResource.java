@@ -1,8 +1,8 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
 import com.gitee.starblues.integration.application.PluginApplication;
 import com.gitee.starblues.integration.operator.PluginOperator;
 import com.gitee.starblues.integration.operator.module.PluginInfo;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
-import static com.gitee.starblues.grape.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.Result.*;
 /**
  * 插件接口
  * @author starBlues

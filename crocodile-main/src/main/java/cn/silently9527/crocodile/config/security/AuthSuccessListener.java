@@ -1,10 +1,10 @@
 package cn.silently9527.crocodile.config.security;
 
-import com.gitee.starblues.grape.core.security.CurrentUserService;
-import com.gitee.starblues.grape.core.security.model.UserDetailsModel;
-import com.gitee.starblues.grape.repository.databases.entity.User;
-import com.gitee.starblues.grape.utils.HttpUtils;
-import com.gitee.starblues.grape.utils.TimeUtil;
+import cn.silently9527.crocodile.core.security.CurrentUserService;
+import cn.silently9527.crocodile.core.security.model.UserDetailsModel;
+import cn.silently9527.crocodile.repository.databases.entity.User;
+import cn.silently9527.crocodile.utils.HttpUtils;
+import cn.silently9527.crocodile.utils.TimeUtil;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationListener;
 import org.springframework.security.authentication.event.AuthenticationSuccessEvent;

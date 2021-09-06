@@ -3,8 +3,8 @@ package cn.silently9527.crocodile.config.security.exception;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.OAuth2Enum;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.OAuth2Enum;
 
 import java.io.IOException;
 

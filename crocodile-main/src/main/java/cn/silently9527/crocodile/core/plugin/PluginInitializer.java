@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.core.plugin;
+package cn.silently9527.crocodile.core.plugin;
 
-import com.gitee.starblues.grape.core.plugin.web.WebInterfacePluginListener;
+import cn.silently9527.crocodile.core.plugin.web.WebInterfacePluginListener;
 import com.gitee.starblues.integration.application.DefaultPluginApplication;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.InitializingBean;

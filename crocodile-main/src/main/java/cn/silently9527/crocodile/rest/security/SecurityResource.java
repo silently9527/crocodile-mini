@@ -1,12 +1,12 @@
-package com.gitee.starblues.grape.rest.security;
+package cn.silently9527.crocodile.rest.security;
 
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.core.security.UserService;
-import com.gitee.starblues.grape.core.security.model.AuthUserInfo;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.security.model.vo.NavigationVo;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.core.security.UserService;
+import cn.silently9527.crocodile.core.security.model.AuthUserInfo;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.security.model.vo.NavigationVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 /**
  * 授权相关接口

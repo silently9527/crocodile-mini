@@ -1,10 +1,10 @@
-package com.gitee.starblues.grape.core.security.impl;
+package cn.silently9527.crocodile.core.security.impl;
 
-import com.gitee.starblues.grape.core.security.LoginLogService;
-import com.gitee.starblues.grape.repository.databases.entity.LoginLog;
-import com.gitee.starblues.grape.repository.databases.mapper.LoginLogMapper;
+import cn.silently9527.crocodile.core.security.LoginLogService;
+import cn.silently9527.crocodile.repository.databases.entity.LoginLog;
+import cn.silently9527.crocodile.repository.databases.mapper.LoginLogMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.gitee.starblues.grape.utils.TimeUtil;
+import cn.silently9527.crocodile.utils.TimeUtil;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,12 +1,12 @@
-package com.gitee.starblues.grape.core.security.impl;
+package cn.silently9527.crocodile.core.security.impl;
 
 import cn.hutool.core.util.StrUtil;
-import com.gitee.starblues.grape.core.exception.BusinessException;
-import com.gitee.starblues.grape.repository.databases.entity.OauthClientDetails;
-import com.gitee.starblues.grape.repository.databases.mapper.OauthClientDetailsMapper;
-import com.gitee.starblues.grape.core.security.OauthClientDetailsService;
+import cn.silently9527.crocodile.core.exception.BusinessException;
+import cn.silently9527.crocodile.repository.databases.entity.OauthClientDetails;
+import cn.silently9527.crocodile.repository.databases.mapper.OauthClientDetailsMapper;
+import cn.silently9527.crocodile.core.security.OauthClientDetailsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.gitee.starblues.grape.rest.model.param.oauthclient.OauthClientUpdatedParam;
+import cn.silently9527.crocodile.rest.model.param.oauthclient.OauthClientUpdatedParam;
 import com.google.common.base.Joiner;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.BeanUtils;

@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.repository.databases.entity;
+package cn.silently9527.crocodile.repository.databases.entity;
 
 import java.io.Serializable;
 

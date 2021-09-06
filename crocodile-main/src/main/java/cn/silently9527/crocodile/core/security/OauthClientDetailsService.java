@@ -1,8 +1,8 @@
-package com.gitee.starblues.grape.core.security;
+package cn.silently9527.crocodile.core.security;
 
-import com.gitee.starblues.grape.repository.databases.entity.OauthClientDetails;
+import cn.silently9527.crocodile.repository.databases.entity.OauthClientDetails;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.gitee.starblues.grape.rest.model.param.oauthclient.OauthClientUpdatedParam;
+import cn.silently9527.crocodile.rest.model.param.oauthclient.OauthClientUpdatedParam;
 
 /**
  * <p>

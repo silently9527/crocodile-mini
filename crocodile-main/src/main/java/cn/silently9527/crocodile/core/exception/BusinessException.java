@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.core.exception;
+package cn.silently9527.crocodile.core.exception;
 
 /**
  * 业务异常

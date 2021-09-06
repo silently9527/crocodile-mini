@@ -1,7 +1,7 @@
 package cn.silently9527.crocodile.config.security.exception;
 
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.OAuth2Enum;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.OAuth2Enum;
 import com.google.gson.Gson;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.AuthenticationException;

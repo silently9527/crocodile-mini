@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.gitee.starblues.grape.repository.databases.mapper.OauthClientDetailsMapper">
+<mapper namespace="cn.silently9527.crocodile.repository.databases.mapper.OauthClientDetailsMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.gitee.starblues.grape.repository.databases.entity.OauthClientDetails">
+    <resultMap id="BaseResultMap" type="cn.silently9527.crocodile.repository.databases.entity.OauthClientDetails">
         <result column="client_id" property="clientId" />
         <result column="name" property="name" />
         <result column="resource_ids" property="resourceIds" />

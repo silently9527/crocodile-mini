@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.gitee.starblues.grape.repository.databases.mapper.UserMapper">
+<mapper namespace="cn.silently9527.crocodile.repository.databases.mapper.UserMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.gitee.starblues.grape.repository.databases.entity.User">
+    <resultMap id="BaseResultMap" type="cn.silently9527.crocodile.repository.databases.entity.User">
         <id column="user_id" property="userId" />
         <result column="name" property="name" />
         <result column="phone" property="phone" />
@@ -29,7 +29,7 @@
     </sql>
 
 
-    <select id="getUserAndRoleInfo" resultType="com.gitee.starblues.grape.repository.databases.model.UserHasRole">
+    <select id="getUserAndRoleInfo" resultType="cn.silently9527.crocodile.repository.databases.model.UserHasRole">
         select u.user_id, u.name, u.phone, u.email, u.username, u.status, u.locked,u.create_user,
         u.gmt_created, u.modified_user, u.gmt_modified, u.avatar, u.last_login_ip, u.last_gmt_login_time,
 	    group_concat( distinct ( r.name ) ) as roleNames

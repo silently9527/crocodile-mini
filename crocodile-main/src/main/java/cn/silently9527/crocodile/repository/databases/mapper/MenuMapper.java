@@ -1,8 +1,8 @@
-package com.gitee.starblues.grape.repository.databases.mapper;
+package cn.silently9527.crocodile.repository.databases.mapper;
 
-import com.gitee.starblues.grape.repository.databases.entity.Menu;
+import cn.silently9527.crocodile.repository.databases.entity.Menu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gitee.starblues.grape.core.security.model.MenuTree;
+import cn.silently9527.crocodile.core.security.model.MenuTree;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.gitee.starblues.grape.repository.databases.mapper.MenuMapper">
+<mapper namespace="cn.silently9527.crocodile.repository.databases.mapper.MenuMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.gitee.starblues.grape.repository.databases.entity.Menu">
+    <resultMap id="BaseResultMap" type="cn.silently9527.crocodile.repository.databases.entity.Menu">
         <id column="menu_id" property="menuId" />
         <result column="parent_id" property="parentId" />
         <result column="type" property="type" />
@@ -64,7 +64,7 @@
         order by m.order_num asc;
     </select>
 
-    <select id="getMenuTree" resultType="com.gitee.starblues.grape.core.security.model.MenuTree">
+    <select id="getMenuTree" resultType="cn.silently9527.crocodile.core.security.model.MenuTree">
         select * from menu where deleted = 0
         <if test="havePluginMenu != null and havePluginMenu==false">
             and plugin_menu = 0
@@ -72,7 +72,7 @@
         order by order_num asc
     </select>
 
-    <select id="getMenuTreeByRole" resultType="com.gitee.starblues.grape.core.security.model.MenuTree">
+    <select id="getMenuTreeByRole" resultType="cn.silently9527.crocodile.core.security.model.MenuTree">
         select m.*
         from menu m
         left join role_menu rm on m.menu_id = rm.menu_id

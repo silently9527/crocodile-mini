@@ -2,7 +2,7 @@ package cn.silently9527.crocodile.config;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.silently9527.crocodile.config.prop.SystemProp;
-import com.gitee.starblues.grape.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.BaseResource;
 import com.google.common.collect.Lists;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;

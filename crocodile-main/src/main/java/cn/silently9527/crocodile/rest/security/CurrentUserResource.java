@@ -1,13 +1,13 @@
-package com.gitee.starblues.grape.rest.security;
+package cn.silently9527.crocodile.rest.security;
 
-import com.gitee.starblues.grape.core.security.CurrentUserService;
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.core.security.model.MenuTree;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.model.param.user.UserUpdatePasswordParam;
-import com.gitee.starblues.grape.rest.security.model.param.CurrentUserInfoUpdatedParam;
+import cn.silently9527.crocodile.core.security.CurrentUserService;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.core.security.model.MenuTree;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.model.param.user.UserUpdatePasswordParam;
+import cn.silently9527.crocodile.rest.security.model.param.CurrentUserInfoUpdatedParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
@@ -20,8 +20,8 @@ import javax.validation.Valid;
 
 import java.util.List;
 import java.util.Objects;
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 
 /**

@@ -3,7 +3,7 @@ package cn.silently9527.crocodile.config.security;
 import cn.hutool.core.util.StrUtil;
 import cn.silently9527.crocodile.config.prop.SystemProp;
 import cn.silently9527.crocodile.config.security.exception.CustomWebResponseExceptionTranslator;
-import com.gitee.starblues.grape.core.security.UserService;
+import cn.silently9527.crocodile.core.security.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

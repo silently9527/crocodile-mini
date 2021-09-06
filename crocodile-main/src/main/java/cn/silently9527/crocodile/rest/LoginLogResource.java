@@ -1,17 +1,17 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.gitee.starblues.grape.core.security.LoginLogService;
-import com.gitee.starblues.grape.repository.databases.entity.LoginLog;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.model.param.loginlog.LoginLogPageParam;
-import com.gitee.starblues.grape.utils.AuthUtils;
+import cn.silently9527.crocodile.core.security.LoginLogService;
+import cn.silently9527.crocodile.repository.databases.entity.LoginLog;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.model.param.loginlog.LoginLogPageParam;
+import cn.silently9527.crocodile.utils.AuthUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
@@ -20,7 +20,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import static com.gitee.starblues.grape.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.Result.*;
 /**
  * 登录日志接口配置
  * @author starBlues

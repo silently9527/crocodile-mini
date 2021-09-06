@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.core.security.model;
+package cn.silently9527.crocodile.core.security.model;
 
-import com.gitee.starblues.grape.repository.databases.entity.Role;
+import cn.silently9527.crocodile.repository.databases.entity.Role;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 

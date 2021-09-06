@@ -1,22 +1,22 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.gitee.starblues.grape.core.security.RoleService;
-import com.gitee.starblues.grape.core.security.UserRoleService;
-import com.gitee.starblues.grape.core.security.UserService;
-import com.gitee.starblues.grape.repository.databases.entity.Role;
-import com.gitee.starblues.grape.repository.databases.entity.UserRole;
-import com.gitee.starblues.grape.repository.databases.model.UserHasRole;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.model.param.user.UserAddParam;
-import com.gitee.starblues.grape.rest.model.param.user.UserPageParam;
-import com.gitee.starblues.grape.rest.model.param.user.UserResetPasswordParam;
-import com.gitee.starblues.grape.rest.model.param.user.UserUpdateParam;
+import cn.silently9527.crocodile.core.security.RoleService;
+import cn.silently9527.crocodile.core.security.UserRoleService;
+import cn.silently9527.crocodile.core.security.UserService;
+import cn.silently9527.crocodile.repository.databases.entity.Role;
+import cn.silently9527.crocodile.repository.databases.entity.UserRole;
+import cn.silently9527.crocodile.repository.databases.model.UserHasRole;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.model.param.user.UserAddParam;
+import cn.silently9527.crocodile.rest.model.param.user.UserPageParam;
+import cn.silently9527.crocodile.rest.model.param.user.UserResetPasswordParam;
+import cn.silently9527.crocodile.rest.model.param.user.UserUpdateParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -31,8 +31,8 @@ import javax.validation.constraints.NotEmpty;
 
 import java.util.List;
 
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 /**
  * 用户资源接口

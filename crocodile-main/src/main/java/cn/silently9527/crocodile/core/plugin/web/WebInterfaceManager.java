@@ -1,10 +1,10 @@
-package com.gitee.starblues.grape.core.plugin.web;
+package cn.silently9527.crocodile.core.plugin.web;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.repository.databases.entity.Menu;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.repository.databases.entity.Menu;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

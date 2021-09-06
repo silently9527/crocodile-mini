@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.security.model.vo;
+package cn.silently9527.crocodile.rest.security.model.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.annotations.ApiModelProperty;

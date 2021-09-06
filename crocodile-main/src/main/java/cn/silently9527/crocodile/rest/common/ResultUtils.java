@@ -1,7 +1,7 @@
-package com.gitee.starblues.grape.rest.common;
+package cn.silently9527.crocodile.rest.common;
 
 import cn.hutool.core.util.StrUtil;
-import com.gitee.starblues.grape.core.exception.BusinessException;
+import cn.silently9527.crocodile.core.exception.BusinessException;
 import org.slf4j.Logger;
 
 /**

@@ -1,7 +1,7 @@
-package com.gitee.starblues.grape.rest.common.enums;
+package cn.silently9527.crocodile.rest.common.enums;
 
 
-import com.gitee.starblues.grape.rest.common.ResponseEnum;
+import cn.silently9527.crocodile.rest.common.ResponseEnum;
 
 /**
  * 验证码校验结果枚举

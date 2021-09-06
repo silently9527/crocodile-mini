@@ -23,8 +23,8 @@ spring:
 # mybatis-plus 配置
 mybatis-plus:
   # 别名定义包
-  typeAliasesPackage: com.gitee.starblues.grape.repository.databases.entity
-  mapperLocations: classpath*:/com/gitee/starblues/grape/repository/databases/mapper/xml/*.xml
+  typeAliasesPackage: cn.silently9527.crocodile.repository.databases.entity
+  mapperLocations: classpath*:/cn/silently9527/crocodile/repository/databases/mapper/xml/*.xml
   configuration:
     mapUnderscoreToCamelCase: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
@@ -55,7 +55,7 @@ plugin:
   # 是否启用插件
   enable: true
   # 插件存放的目录
-  pluginPath: ./grape-plugins
+  pluginPath: ./plugins
   # 生产环境下, 插件文件的路径. 只在生产环境下生效
   pluginConfigFilePath:
   # 插件rest接口前缀
@@ -72,7 +72,7 @@ plugin:
 
 # web界面配置
 web:
-  webLocation: classpath:/grape-web/
+  webLocation: classpath:/crocodile-console/
   # web 界面的配置
   config:
     # 服务的接口url地址, 默认为空, 表示使用浏览器访问的地址

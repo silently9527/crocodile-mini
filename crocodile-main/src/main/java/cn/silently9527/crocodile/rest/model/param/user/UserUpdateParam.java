@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.model.param.user;
+package cn.silently9527.crocodile.rest.model.param.user;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,17 +1,17 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.gitee.starblues.grape.core.security.OauthClientDetailsService;
-import com.gitee.starblues.grape.repository.databases.entity.OauthClientDetails;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.model.param.oauthclient.OauthClientPageParam;
-import com.gitee.starblues.grape.rest.model.param.oauthclient.OauthClientUpdatedParam;
+import cn.silently9527.crocodile.core.security.OauthClientDetailsService;
+import cn.silently9527.crocodile.repository.databases.entity.OauthClientDetails;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.model.param.oauthclient.OauthClientPageParam;
+import cn.silently9527.crocodile.rest.model.param.oauthclient.OauthClientUpdatedParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -21,8 +21,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 /**
  * 授权客户端接口配置

@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.security.model.param;
+package cn.silently9527.crocodile.rest.security.model.param;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

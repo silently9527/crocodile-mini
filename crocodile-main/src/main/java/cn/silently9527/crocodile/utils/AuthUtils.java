@@ -1,7 +1,7 @@
-package com.gitee.starblues.grape.utils;
+package cn.silently9527.crocodile.utils;
 
 import cn.hutool.core.util.StrUtil;
-import com.gitee.starblues.grape.core.security.model.RoleGrantedAuthority;
+import cn.silently9527.crocodile.core.security.model.RoleGrantedAuthority;
 import com.google.common.collect.Sets;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

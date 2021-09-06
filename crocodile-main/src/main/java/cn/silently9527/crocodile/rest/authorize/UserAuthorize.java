@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.authorize;
+package cn.silently9527.crocodile.rest.authorize;
 
 /**
  * 用户授权定义

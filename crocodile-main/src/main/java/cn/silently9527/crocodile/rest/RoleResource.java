@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -6,20 +6,20 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import cn.silently9527.crocodile.config.prop.SystemProp;
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.core.security.RoleMenuService;
-import com.gitee.starblues.grape.core.security.RoleService;
-import com.gitee.starblues.grape.core.security.model.MenuTree;
-import com.gitee.starblues.grape.repository.databases.entity.Role;
-import com.gitee.starblues.grape.repository.databases.entity.RoleMenu;
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.rest.common.vo.RoleMenuVo;
-import com.gitee.starblues.grape.rest.model.param.role.RoleAddParam;
-import com.gitee.starblues.grape.rest.model.param.role.RoleMenuUpdateParam;
-import com.gitee.starblues.grape.rest.model.param.role.RolePageParam;
-import com.gitee.starblues.grape.rest.model.param.role.RoleUpdateParam;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.core.security.RoleMenuService;
+import cn.silently9527.crocodile.core.security.RoleService;
+import cn.silently9527.crocodile.core.security.model.MenuTree;
+import cn.silently9527.crocodile.repository.databases.entity.Role;
+import cn.silently9527.crocodile.repository.databases.entity.RoleMenu;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.rest.common.vo.RoleMenuVo;
+import cn.silently9527.crocodile.rest.model.param.role.RoleAddParam;
+import cn.silently9527.crocodile.rest.model.param.role.RoleMenuUpdateParam;
+import cn.silently9527.crocodile.rest.model.param.role.RolePageParam;
+import cn.silently9527.crocodile.rest.model.param.role.RoleUpdateParam;
 import com.google.common.collect.Sets;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -35,8 +35,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 /**
  * 角色接口

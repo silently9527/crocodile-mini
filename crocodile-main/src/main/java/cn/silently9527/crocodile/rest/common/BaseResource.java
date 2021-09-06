@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.common;
+package cn.silently9527.crocodile.rest.common;
 
 import org.springframework.http.ResponseEntity;
 

@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.utils;
+package cn.silently9527.crocodile.utils;
 
 import com.gitee.starblues.integration.user.PluginUser;
 import com.google.gson.Gson;

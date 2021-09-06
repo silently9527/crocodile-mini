@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.common;
+package cn.silently9527.crocodile.rest.common;
 
 import cn.hutool.core.util.StrUtil;
 import com.google.common.collect.Maps;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.gitee.starblues.grape.rest.common.ResultUtils.getFailureMessage;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.getFailureMessage;
 
 
 /**

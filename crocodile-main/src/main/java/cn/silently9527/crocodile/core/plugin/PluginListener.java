@@ -1,9 +1,9 @@
-package com.gitee.starblues.grape.core.plugin;
+package cn.silently9527.crocodile.core.plugin;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.repository.databases.entity.Menu;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.repository.databases.entity.Menu;
 import com.gitee.starblues.integration.application.PluginApplication;
 import com.gitee.starblues.integration.listener.PluginInitializerListener;
 import com.gitee.starblues.integration.operator.PluginOperator;

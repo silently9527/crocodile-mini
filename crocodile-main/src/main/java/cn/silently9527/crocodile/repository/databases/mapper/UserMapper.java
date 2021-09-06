@@ -1,9 +1,9 @@
-package com.gitee.starblues.grape.repository.databases.mapper;
+package cn.silently9527.crocodile.repository.databases.mapper;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.gitee.starblues.grape.repository.databases.entity.User;
+import cn.silently9527.crocodile.repository.databases.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gitee.starblues.grape.repository.databases.model.UserHasRole;
+import cn.silently9527.crocodile.repository.databases.model.UserHasRole;
 import org.apache.ibatis.annotations.Param;
 
 /**

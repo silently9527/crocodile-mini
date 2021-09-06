@@ -1,7 +1,7 @@
 package cn.silently9527.crocodile.config.security;
 
-import com.gitee.starblues.grape.core.security.LoginLogService;
-import com.gitee.starblues.grape.utils.HttpUtils;
+import cn.silently9527.crocodile.core.security.LoginLogService;
+import cn.silently9527.crocodile.utils.HttpUtils;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationListener;
 import org.springframework.security.authentication.event.AbstractAuthenticationFailureEvent;

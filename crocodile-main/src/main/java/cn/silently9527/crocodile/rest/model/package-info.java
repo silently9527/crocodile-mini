@@ -3,4 +3,4 @@
  * @author starBlues
  * @version 1.0
  */
-package com.gitee.starblues.grape.rest.model;
+package cn.silently9527.crocodile.rest.model;

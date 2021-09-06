@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.rest.model.param.oauthclient;
+package cn.silently9527.crocodile.rest.model.param.oauthclient;
 
-import com.gitee.starblues.grape.rest.common.param.PageParam;
+import cn.silently9527.crocodile.rest.common.param.PageParam;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

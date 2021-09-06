@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.common.param;
+package cn.silently9527.crocodile.rest.common.param;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

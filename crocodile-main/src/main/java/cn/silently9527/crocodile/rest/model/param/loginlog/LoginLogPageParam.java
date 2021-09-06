@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.rest.model.param.loginlog;
+package cn.silently9527.crocodile.rest.model.param.loginlog;
 
-import com.gitee.starblues.grape.rest.common.param.PageParam;
+import cn.silently9527.crocodile.rest.common.param.PageParam;
 import io.swagger.annotations.ApiModel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

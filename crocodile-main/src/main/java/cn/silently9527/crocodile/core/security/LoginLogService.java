@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.core.security;
+package cn.silently9527.crocodile.core.security;
 
-import com.gitee.starblues.grape.repository.databases.entity.LoginLog;
+import cn.silently9527.crocodile.repository.databases.entity.LoginLog;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

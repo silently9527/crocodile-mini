@@ -1,11 +1,11 @@
-package com.gitee.starblues.grape.rest;
+package cn.silently9527.crocodile.rest;
 
-import com.gitee.starblues.grape.rest.common.BaseResource;
-import com.gitee.starblues.grape.rest.common.Result;
-import com.gitee.starblues.grape.rest.common.enums.ApiEnum;
-import com.gitee.starblues.grape.core.security.MenuService;
-import com.gitee.starblues.grape.rest.model.param.menu.MenuAddParam;
-import com.gitee.starblues.grape.rest.model.param.menu.MenuUpdatedParam;
+import cn.silently9527.crocodile.rest.common.BaseResource;
+import cn.silently9527.crocodile.rest.common.Result;
+import cn.silently9527.crocodile.rest.common.enums.ApiEnum;
+import cn.silently9527.crocodile.core.security.MenuService;
+import cn.silently9527.crocodile.rest.model.param.menu.MenuAddParam;
+import cn.silently9527.crocodile.rest.model.param.menu.MenuUpdatedParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -16,8 +16,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import static com.gitee.starblues.grape.rest.common.Result.*;
-import static com.gitee.starblues.grape.rest.common.ResultUtils.errorLog;
+import static cn.silently9527.crocodile.rest.common.Result.*;
+import static cn.silently9527.crocodile.rest.common.ResultUtils.errorLog;
 
 /**
  * 菜单接口

@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.rest.common.vo;
+package cn.silently9527.crocodile.rest.common.vo;
 
-import com.gitee.starblues.grape.core.security.model.MenuTree;
+import cn.silently9527.crocodile.core.security.model.MenuTree;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

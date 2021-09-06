@@ -1,13 +1,13 @@
-package com.gitee.starblues.grape.core.security;
+package cn.silently9527.crocodile.core.security;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.gitee.starblues.grape.repository.databases.entity.User;
+import cn.silently9527.crocodile.repository.databases.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.gitee.starblues.grape.core.security.model.AuthUserInfo;
-import com.gitee.starblues.grape.repository.databases.model.UserHasRole;
-import com.gitee.starblues.grape.rest.model.param.user.UserAddParam;
-import com.gitee.starblues.grape.rest.model.param.user.UserPageParam;
-import com.gitee.starblues.grape.rest.model.param.user.UserUpdateParam;
+import cn.silently9527.crocodile.core.security.model.AuthUserInfo;
+import cn.silently9527.crocodile.repository.databases.model.UserHasRole;
+import cn.silently9527.crocodile.rest.model.param.user.UserAddParam;
+import cn.silently9527.crocodile.rest.model.param.user.UserPageParam;
+import cn.silently9527.crocodile.rest.model.param.user.UserUpdateParam;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**

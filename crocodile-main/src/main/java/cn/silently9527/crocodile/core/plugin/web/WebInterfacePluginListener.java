@@ -1,11 +1,11 @@
-package com.gitee.starblues.grape.core.plugin.web;
+package cn.silently9527.crocodile.core.plugin.web;
 
 import cn.hutool.core.util.StrUtil;
-import com.gitee.starblues.grape.core.security.UserService;
-import com.gitee.starblues.grape.plugin.web.PluginWebInterface;
-import com.gitee.starblues.grape.repository.databases.entity.Menu;
-import com.gitee.starblues.grape.repository.databases.entity.User;
-import com.gitee.starblues.grape.utils.HttpUtils;
+import cn.silently9527.crocodile.core.security.UserService;
+import cn.silently9527.crocodile.plugin.web.PluginWebInterface;
+import cn.silently9527.crocodile.repository.databases.entity.Menu;
+import cn.silently9527.crocodile.repository.databases.entity.User;
+import cn.silently9527.crocodile.utils.HttpUtils;
 import com.gitee.starblues.integration.application.PluginApplication;
 import com.gitee.starblues.integration.listener.PluginListener;
 import com.gitee.starblues.integration.user.PluginUser;

@@ -2,7 +2,7 @@ package cn.silently9527.crocodile.config.security;
 
 import cn.hutool.core.util.StrUtil;
 import cn.silently9527.crocodile.config.prop.SystemProp;
-import com.gitee.starblues.grape.utils.AuthUtils;
+import cn.silently9527.crocodile.utils.AuthUtils;
 import com.google.common.collect.Sets;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

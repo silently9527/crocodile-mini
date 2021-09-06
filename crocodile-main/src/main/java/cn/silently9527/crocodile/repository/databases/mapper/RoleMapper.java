@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.repository.databases.mapper;
+package cn.silently9527.crocodile.repository.databases.mapper;
 
-import com.gitee.starblues.grape.repository.databases.entity.Role;
+import cn.silently9527.crocodile.repository.databases.entity.Role;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.gitee.starblues.grape.rest.security.model.vo;
+package cn.silently9527.crocodile.rest.security.model.vo;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;

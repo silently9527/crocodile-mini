@@ -5,7 +5,7 @@ import cn.hutool.core.date.DateUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize;
-import com.gitee.starblues.grape.core.security.impl.UserServiceImpl;
+import cn.silently9527.crocodile.core.security.impl.UserServiceImpl;
 import org.apache.ibatis.reflection.MetaObject;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
@@ -20,7 +20,7 @@ import java.util.Date;
  * @since 2020-12-24
  */
 @Configuration
-@MapperScan("com.gitee.starblues.grape.repository.databases.mapper")
+@MapperScan("cn.silently9527.crocodile.repository.databases.mapper")
 public class MybatisPlusConfig {
 
     @Bean

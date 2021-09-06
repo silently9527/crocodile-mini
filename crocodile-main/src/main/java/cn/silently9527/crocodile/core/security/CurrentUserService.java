@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.core.security;
+package cn.silently9527.crocodile.core.security;
 
-import com.gitee.starblues.grape.rest.security.model.param.CurrentUserInfoUpdatedParam;
+import cn.silently9527.crocodile.rest.security.model.param.CurrentUserInfoUpdatedParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;

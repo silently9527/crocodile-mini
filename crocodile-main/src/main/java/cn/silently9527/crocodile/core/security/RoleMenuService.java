@@ -1,6 +1,6 @@
-package com.gitee.starblues.grape.core.security;
+package cn.silently9527.crocodile.core.security;
 
-import com.gitee.starblues.grape.repository.databases.entity.RoleMenu;
+import cn.silently9527.crocodile.repository.databases.entity.RoleMenu;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Collection;
